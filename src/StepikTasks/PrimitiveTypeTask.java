@@ -8,10 +8,10 @@ booleanExpression значения (a, b, c, d) и вернуть результ
 
 public class PrimitiveTypeTask {
     public static void main(String args[]) {
-       if (booleanExpression (true, true, false, false) == true)
-           System.out.println("Результат: true");
-       else
-           System.out.println("Результат: false");
+        if (booleanExpression(true, true, false, false))
+            System.out.println("Результат: true");
+        else
+            System.out.println("Результат: false");
     }
 
     public static boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
