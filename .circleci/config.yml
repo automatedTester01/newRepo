@@ -28,4 +28,6 @@ jobs:
       # run tests!
       - run:
           name: launch project
-          command: ./gradlew run
+          command:  |
+          gradle wrapper
+          ./gradlew run
