@@ -30,5 +30,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'PrimitiveTypeTask.java'
+    mainClassName = 'C:/Users/Юзер/IdeaProjects/JavaLeanTraning/src/StepikTasks/PrimitiveTypeTask.java'
 }
