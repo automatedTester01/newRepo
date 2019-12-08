@@ -26,4 +26,6 @@ jobs:
       - run: gradle dependencies
 
       # run tests!
-      - run: gradle run
+      - run:
+          name: launch project
+          command: ./gradlew run
