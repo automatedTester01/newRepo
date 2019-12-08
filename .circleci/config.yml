@@ -34,7 +34,7 @@ jobs:
 
       - run:
           name: Run the application
-          command: gradle run --status
-          background: true
+          command: gradle run
+#          background: true
 #       run tests
       - run: gradle test
